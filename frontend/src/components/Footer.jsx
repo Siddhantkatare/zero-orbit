@@ -18,7 +18,7 @@ const Footer = ({ footer }) => {
           <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
             {/* Company Info */}
             <div className="lg:col-span-1">
-              <div className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent mb-4">
+              <div className="text-2xl font-bold text-white mb-4">
                 {footer.company.name}
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
