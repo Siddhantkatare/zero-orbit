@@ -9,14 +9,14 @@ const WorkSection = ({ work }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium mb-4">
+          <div className="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-800 rounded-full text-sm font-medium mb-4">
             <Briefcase className="w-4 h-4 mr-2" />
             {work.badge}
           </div>
           <h2 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
             <span className="block">{work.title.line1}</span>
             <span className="block">
-              <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
+              <span className="text-black">
                 {work.title.line2}
               </span>
               <span className="text-gray-900">{work.title.line3}</span>
@@ -42,7 +42,7 @@ const WorkSection = ({ work }) => {
                   </div>
                 </div>
                 <div className="p-12 flex flex-col justify-center">
-                  <div className="inline-flex items-center px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm font-medium mb-4 w-fit">
+                  <div className="inline-flex items-center px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm font-medium mb-4 w-fit">
                     {work.featured.category}
                   </div>
                   <h3 className="text-3xl font-bold text-gray-900 mb-4">
@@ -58,7 +58,7 @@ const WorkSection = ({ work }) => {
                       </span>
                     ))}
                   </div>
-                  <Button className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white w-fit">
+                  <Button className="bg-black hover:bg-gray-800 text-white w-fit">
                     View Case Study
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
@@ -102,7 +102,7 @@ const WorkSection = ({ work }) => {
                     </span>
                   ))}
                 </div>
-                <Button variant="outline" className="w-full border-orange-200 hover:border-orange-500 hover:bg-orange-50 text-orange-600">
+                <Button variant="outline" className="w-full border-gray-200 hover:border-black hover:bg-gray-50 text-black">
                   View Project
                 </Button>
               </CardContent>
@@ -112,10 +112,10 @@ const WorkSection = ({ work }) => {
 
         {/* CTA Section */}
         <div className="text-center">
-          <div className="bg-gradient-to-r from-orange-50 to-red-50 rounded-3xl p-12 border border-orange-100">
+          <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-3xl p-12 border border-gray-200">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">{work.cta.title}</h3>
             <p className="text-gray-600 mb-8 max-w-2xl mx-auto text-lg">{work.cta.subtitle}</p>
-            <Button className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105">
+            <Button className="bg-black hover:bg-gray-800 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105">
               {work.cta.button}
             </Button>
           </div>
