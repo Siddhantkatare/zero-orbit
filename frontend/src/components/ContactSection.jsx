@@ -64,7 +64,7 @@ const ContactSection = ({ contact }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium mb-4">
+          <div className="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-800 rounded-full text-sm font-medium mb-4">
             <MessageSquare className="w-4 h-4 mr-2" />
             {contact.badge}
           </div>
@@ -90,7 +90,7 @@ const ContactSection = ({ contact }) => {
               {/* Contact Methods */}
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-black rounded-xl flex items-center justify-center flex-shrink-0">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -101,7 +101,7 @@ const ContactSection = ({ contact }) => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-black rounded-xl flex items-center justify-center flex-shrink-0">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -112,7 +112,7 @@ const ContactSection = ({ contact }) => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-black rounded-xl flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -136,7 +136,7 @@ const ContactSection = ({ contact }) => {
                   {/* Personal Info */}
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                      <span className="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>
+                      <span className="w-2 h-2 bg-black rounded-full mr-3"></span>
                       Personal Information
                     </h3>
                     <div className="grid md:grid-cols-2 gap-4">
@@ -147,7 +147,7 @@ const ContactSection = ({ contact }) => {
                           name="fullName"
                           value={formData.fullName}
                           onChange={handleInputChange}
-                          className="mt-2 border-gray-200 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-200 focus:border-black focus:ring-black"
                           placeholder="Enter your full name"
                           required
                         />
@@ -281,7 +281,7 @@ const ContactSection = ({ contact }) => {
                   <div className="pt-4">
                     <Button 
                       type="submit"
-                      className="w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105"
+                      className="w-full bg-black hover:bg-gray-800 text-white py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105"
                     >
                       Send Message
                       <Send className="ml-2 h-5 w-5" />
