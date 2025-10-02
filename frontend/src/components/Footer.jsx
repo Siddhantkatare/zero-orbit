@@ -52,7 +52,7 @@ const Footer = ({ footer }) => {
                       href="#"
                       className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center group"
                     >
-                      <span className="w-2 h-2 bg-orange-500 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                      <span className="w-2 h-2 bg-white rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                       {service}
                     </a>
                   </li>
@@ -70,7 +70,7 @@ const Footer = ({ footer }) => {
                       href="#"
                       className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center group"
                     >
-                      <span className="w-2 h-2 bg-orange-500 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                      <span className="w-2 h-2 bg-white rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                       {link}
                     </a>
                   </li>
