@@ -106,6 +106,78 @@ export const mockData = {
     }
   },
   
+  work: {
+    badge: "Our Portfolio",
+    title: {
+      line1: "WHERE",
+      line2: "CREATIVITY",
+      line3: "MEETS",
+      line4: "EXECUTION"
+    },
+    subtitle: "We blend creativity and storytelling with technical excellence. From innovative web platforms to impactful brand experiences, we help businesses, creators, and brands connect with their audience. Explore our portfolio to see how we transform ideas into meaningful digital experiences.",
+    featured: {
+      category: "Featured Project",
+      title: "Phoenix Citadel",
+      description: "We created an engaging promotional video for Phoenix Citadel, designed to captivate audiences with fun, creative, and visually compelling storytelling that showcases their unique brand identity.",
+      tags: ["Video Production", "Brand Storytelling", "Motion Graphics", "Creative Direction"]
+    },
+    projects: [
+      {
+        title: "Growwed",
+        category: "Web Development",
+        description: "We partnered with Growwed to create a comprehensive website and digital products that effectively communicate the brand's vision and enhance user engagement.",
+        technologies: ["React", "Node.js", "MongoDB", "UI/UX"],
+        gradient: "from-green-400 to-blue-500"
+      },
+      {
+        title: "Runfire Protection",
+        category: "3D Animation",
+        description: "We created stunning 3D promotional videos for Runfire Protection System, featuring dynamic visuals that highlight their innovative safety solutions.",
+        technologies: ["3D Modeling", "Animation", "Video Production", "VFX"],
+        gradient: "from-red-400 to-orange-500"
+      },
+      {
+        title: "Aditya Fire System",
+        category: "Brand Identity",
+        description: "We partnered with Aditya Fire Protection to develop comprehensive branding solutions that effectively communicate their safety expertise.",
+        technologies: ["Brand Design", "Logo Design", "Marketing Materials", "Print Design"],
+        gradient: "from-red-500 to-pink-500"
+      },
+      {
+        title: "Vector Skill Academy",
+        category: "EdTech Platform",
+        description: "We designed and developed an innovative EdTech website for Vector Skill Academy, creating a user-friendly platform that enhances accessibility and reflects their focus on skill development.",
+        technologies: ["Web Development", "LMS", "UI/UX", "Interactive Design"],
+        gradient: "from-purple-400 to-indigo-500"
+      },
+      {
+        title: "Fair Share Bill Splitter",
+        category: "Mobile App",
+        description: "We developed FairShare, an intuitive group payment app that makes splitting bills effortless with smart calculation features and seamless user experience.",
+        technologies: ["React Native", "Mobile App", "UI/UX", "Payment Integration"],
+        gradient: "from-cyan-400 to-blue-500"
+      },
+      {
+        title: "Digital Marketing Campaign",
+        category: "Digital Marketing",
+        description: "A comprehensive digital marketing campaign that drove 300% increase in engagement through strategic social media content and targeted advertising.",
+        technologies: ["Social Media", "Content Strategy", "Analytics", "PPC"],
+        gradient: "from-yellow-400 to-orange-500"
+      }
+    ],
+    cta: {
+      title: "Ready to Start Your Project?",
+      subtitle: "Let's collaborate to create something extraordinary that will make your brand stand out and connect with your audience.",
+      button: "Let's Talk"
+    }
+  },
+  
+  contact: {
+    badge: "Get In Touch",
+    title: "GET IN TOUCH",
+    subtitle: "Ready to transform your ideas into reality? We'd love to hear about your project and discuss how we can help you achieve your goals."
+  },
+  
   footer: {
     company: {
       name: "DESIGNPRO",
