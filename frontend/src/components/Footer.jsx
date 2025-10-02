@@ -33,7 +33,7 @@ const Footer = ({ footer }) => {
                     <a
                       key={index}
                       href={social.url}
-                      className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gradient-to-r hover:from-orange-500 hover:to-red-500 transition-all duration-300 transform hover:scale-110"
+                      className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-white hover:text-gray-900 transition-all duration-300 transform hover:scale-110"
                     >
                       <IconComponent className="w-5 h-5" />
                     </a>
