@@ -8,7 +8,7 @@ const Header = ({ navigation }) => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="text-2xl font-bold text-black">
+            <div className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
               {navigation.logo}
             </div>
           </div>
@@ -19,7 +19,7 @@ const Header = ({ navigation }) => {
               <a
                 key={index}
                 href={item.href}
-                className="text-gray-700 hover:text-black px-2 sm:px-3 py-2 text-sm font-medium transition-colors duration-200 relative group"
+                className="text-gray-700 hover:text-orange-500 px-2 sm:px-3 py-2 text-sm font-medium transition-colors duration-200 relative group"
                 onClick={(e) => {
                   if (item.href.startsWith('#')) {
                     e.preventDefault();
@@ -29,14 +29,14 @@ const Header = ({ navigation }) => {
                 }}
               >
                 {item.name}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-black group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-500 group-hover:w-full transition-all duration-300"></span>
               </a>
             ))}
           </nav>
 
           {/* CTA Button */}
           <div className="flex">
-            <Button className="bg-black hover:bg-gray-800 text-white px-4 sm:px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105 text-sm">
+            <Button className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-4 sm:px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105 text-sm">
               Get Started
             </Button>
           </div>
