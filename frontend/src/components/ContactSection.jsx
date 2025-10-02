@@ -160,7 +160,7 @@ const ContactSection = ({ contact }) => {
                           type="email"
                           value={formData.email}
                           onChange={handleInputChange}
-                          className="mt-2 border-gray-200 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-200 focus:border-black focus:ring-black"
                           placeholder="your@email.com"
                           required
                         />
@@ -173,7 +173,7 @@ const ContactSection = ({ contact }) => {
                           type="tel"
                           value={formData.contactNumber}
                           onChange={handleInputChange}
-                          className="mt-2 border-gray-200 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-200 focus:border-black focus:ring-black"
                           placeholder="+1 (555) 123-4567"
                         />
                       </div>
@@ -194,7 +194,7 @@ const ContactSection = ({ contact }) => {
                           name="companyName"
                           value={formData.companyName}
                           onChange={handleInputChange}
-                          className="mt-2 border-gray-200 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-200 focus:border-black focus:ring-black"
                           placeholder="Your company name"
                         />
                       </div>
@@ -206,14 +206,14 @@ const ContactSection = ({ contact }) => {
                           type="url"
                           value={formData.website}
                           onChange={handleInputChange}
-                          className="mt-2 border-gray-200 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-200 focus:border-black focus:ring-black"
                           placeholder="https://yourwebsite.com"
                         />
                       </div>
                       <div className="md:col-span-2">
                         <Label htmlFor="industryType" className="text-gray-700 font-medium">Industry Type</Label>
                         <Select onValueChange={(value) => handleSelectChange('industryType', value)}>
-                          <SelectTrigger className="mt-2 border-gray-200 focus:border-orange-500 focus:ring-orange-500">
+                          <SelectTrigger className="mt-2 border-gray-200 focus:border-black focus:ring-black">
                             <SelectValue placeholder="Select your industry" />
                           </SelectTrigger>
                           <SelectContent>
@@ -246,7 +246,7 @@ const ContactSection = ({ contact }) => {
                           name="state"
                           value={formData.state}
                           onChange={handleInputChange}
-                          className="mt-2 border-gray-200 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-200 focus:border-black focus:ring-black"
                           placeholder="Enter your state"
                         />
                       </div>
@@ -257,7 +257,7 @@ const ContactSection = ({ contact }) => {
                           name="country"
                           value={formData.country}
                           onChange={handleInputChange}
-                          className="mt-2 border-gray-200 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-200 focus:border-black focus:ring-black"
                           placeholder="Enter your country"
                         />
                       </div>
@@ -272,7 +272,7 @@ const ContactSection = ({ contact }) => {
                       name="message"
                       value={formData.message}
                       onChange={handleInputChange}
-                      className="mt-2 border-gray-200 focus:border-orange-500 focus:ring-orange-500 min-h-[120px]"
+                      className="mt-2 border-gray-200 focus:border-black focus:ring-black min-h-[120px]"
                       placeholder="Tell us about your project, goals, and how we can help you..."
                     />
                   </div>
