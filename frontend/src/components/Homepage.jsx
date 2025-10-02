@@ -3,6 +3,8 @@ import Header from './Header';
 import HeroSection from './HeroSection';
 import ServicesSection from './ServicesSection';
 import AutomationSection from './AutomationSection';
+import WorkSection from './WorkSection';
+import ContactSection from './ContactSection';
 import Footer from './Footer';
 import { mockData } from '../data/mock';
 
@@ -27,9 +29,21 @@ const Homepage = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header navigation={data.navigation} />
-      <HeroSection hero={data.hero} />
-      <AutomationSection automation={data.automation} />
-      <ServicesSection services={data.services} />
+      <section id="home">
+        <HeroSection hero={data.hero} />
+      </section>
+      <section id="automation">
+        <AutomationSection automation={data.automation} />
+      </section>
+      <section id="services">
+        <ServicesSection services={data.services} />
+      </section>
+      <section id="work">
+        <WorkSection work={data.work} />
+      </section>
+      <section id="contact">
+        <ContactSection contact={data.contact} />
+      </section>
       <Footer footer={data.footer} />
     </div>
   );
