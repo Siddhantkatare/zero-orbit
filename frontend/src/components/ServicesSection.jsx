@@ -75,10 +75,10 @@ const ServicesSection = ({ services }) => {
 
         {/* Bottom CTA */}
         <div className="text-center">
-          <div className="bg-gradient-to-r from-orange-50 to-red-50 rounded-3xl p-12 border border-orange-100">
+          <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-3xl p-12 border border-gray-200">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">{services.cta.title}</h3>
             <p className="text-gray-600 mb-8 max-w-2xl mx-auto text-lg">{services.cta.subtitle}</p>
-            <Button className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105">
+            <Button className="bg-black hover:bg-gray-800 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105">
               {services.cta.button}
             </Button>
           </div>
