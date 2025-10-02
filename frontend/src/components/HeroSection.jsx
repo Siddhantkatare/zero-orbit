@@ -71,8 +71,8 @@ const HeroSection = ({ hero }) => {
               </div>
 
               {/* Floating Elements */}
-              <div className="absolute -top-6 -right-6 w-24 h-24 bg-gradient-to-r from-orange-400 to-red-400 rounded-full opacity-20 animate-pulse"></div>
-              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-gradient-to-r from-red-400 to-orange-400 rounded-full opacity-10 animate-bounce" style={{animationDuration: '3s'}}></div>
+              <div className="absolute -top-6 -right-6 w-24 h-24 bg-gray-400 rounded-full opacity-20 animate-pulse"></div>
+              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-gray-300 rounded-full opacity-10 animate-bounce" style={{animationDuration: '3s'}}></div>
             </div>
           </div>
         </div>
