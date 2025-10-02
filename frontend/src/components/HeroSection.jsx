@@ -15,14 +15,14 @@ const HeroSection = ({ hero }) => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Content */}
           <div className="text-center lg:text-left">
-            <div className="inline-flex items-center px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium mb-6 animate-fade-in">
-              <span className="w-2 h-2 bg-orange-500 rounded-full mr-2 animate-pulse"></span>
+            <div className="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-800 rounded-full text-sm font-medium mb-6 animate-fade-in">
+              <span className="w-2 h-2 bg-black rounded-full mr-2 animate-pulse"></span>
               {hero.badge}
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
               <span className="block">{hero.title.line1}</span>
-              <span className="block bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
+              <span className="block text-black">
                 {hero.title.line2}
               </span>
               <span className="block text-4xl lg:text-5xl text-gray-700 mt-2">
@@ -35,13 +35,13 @@ const HeroSection = ({ hero }) => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+              <Button className="bg-black hover:bg-gray-800 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
                 {hero.cta.primary}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               
-              <Button variant="outline" className="border-2 border-gray-300 hover:border-orange-500 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 group">
-                <Play className="mr-2 h-5 w-5 group-hover:text-orange-500" />
+              <Button variant="outline" className="border-2 border-gray-300 hover:border-black px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 group">
+                <Play className="mr-2 h-5 w-5 group-hover:text-black" />
                 {hero.cta.secondary}
               </Button>
             </div>
@@ -52,8 +52,8 @@ const HeroSection = ({ hero }) => {
             <div className="relative mx-auto lg:mx-0 max-w-lg">
               {/* Main Card */}
               <div className="bg-white rounded-3xl shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-500">
-                <div className="bg-gradient-to-br from-orange-100 to-red-100 rounded-2xl p-6 mb-4">
-                  <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl mb-4 flex items-center justify-center">
+                <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl p-6 mb-4">
+                  <div className="w-16 h-16 bg-black rounded-xl mb-4 flex items-center justify-center">
                     <div className="w-8 h-8 bg-white rounded-lg"></div>
                   </div>
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">Creative Solutions</h3>
