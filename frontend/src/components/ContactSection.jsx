@@ -183,7 +183,7 @@ const ContactSection = ({ contact }) => {
                   {/* Company Info */}
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                      <span className="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>
+                      <span className="w-2 h-2 bg-black rounded-full mr-3"></span>
                       Company Information
                     </h3>
                     <div className="grid md:grid-cols-2 gap-4">
@@ -235,7 +235,7 @@ const ContactSection = ({ contact }) => {
                   {/* Location */}
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                      <span className="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>
+                      <span className="w-2 h-2 bg-black rounded-full mr-3"></span>
                       Location
                     </h3>
                     <div className="grid md:grid-cols-2 gap-4">
