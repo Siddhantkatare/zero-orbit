@@ -63,7 +63,7 @@ const HeroSection = ({ hero }) => {
                 <div className="space-y-3">
                   {['Brand Identity', 'UI/UX Design', 'Digital Marketing'].map((item, index) => (
                     <div key={index} className="flex items-center space-x-3">
-                      <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
+                      <div className="w-3 h-3 bg-black rounded-full"></div>
                       <span className="text-gray-700 font-medium">{item}</span>
                     </div>
                   ))}
