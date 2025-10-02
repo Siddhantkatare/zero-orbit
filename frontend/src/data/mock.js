@@ -2,11 +2,10 @@ export const mockData = {
   navigation: {
     logo: "DESIGNPRO",
     items: [
-      { name: "Home", href: "#" },
+      { name: "Home", href: "#home" },
       { name: "Services", href: "#services" },
-      { name: "Solutions", href: "#solutions" },
-      { name: "Portfolio", href: "#portfolio" },
-      { name: "About", href: "#about" },
+      { name: "Automation", href: "#automation" },
+      { name: "Work", href: "#work" },
       { name: "Contact", href: "#contact" }
     ]
   },
