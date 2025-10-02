@@ -55,7 +55,7 @@ const ServicesSection = ({ services }) => {
                   <div className="space-y-2 mb-6">
                     {service.features.map((feature, featureIndex) => (
                       <div key={featureIndex} className="flex items-center space-x-2">
-                        <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+                        <div className="w-2 h-2 bg-black rounded-full"></div>
                         <span className="text-sm text-gray-700 font-medium">{feature}</span>
                       </div>
                     ))}
@@ -63,7 +63,7 @@ const ServicesSection = ({ services }) => {
                   
                   <Button 
                     variant="outline" 
-                    className="w-full border-orange-200 hover:border-orange-500 hover:bg-orange-50 text-orange-600 font-semibold transition-all duration-300"
+                    className="w-full border-gray-200 hover:border-black hover:bg-gray-50 text-black font-semibold transition-all duration-300"
                   >
                     Learn More
                   </Button>
