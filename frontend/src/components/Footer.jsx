@@ -50,7 +50,7 @@ const Footer = ({ footer }) => {
                   <li key={index}>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-orange-400 transition-colors duration-200 flex items-center group"
+                      className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center group"
                     >
                       <span className="w-2 h-2 bg-orange-500 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                       {service}
@@ -68,7 +68,7 @@ const Footer = ({ footer }) => {
                   <li key={index}>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-orange-400 transition-colors duration-200 flex items-center group"
+                      className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center group"
                     >
                       <span className="w-2 h-2 bg-orange-500 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                       {link}
@@ -112,7 +112,7 @@ const Footer = ({ footer }) => {
                 <a
                   key={index}
                   href="#"
-                  className="text-gray-400 hover:text-orange-400 text-sm transition-colors duration-200"
+                  className="text-gray-400 hover:text-white text-sm transition-colors duration-200"
                 >
                   {link}
                 </a>
